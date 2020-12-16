@@ -10,33 +10,24 @@
     </script>
 </head>
 <body>
-    <header class="container flex-container" style="margin:0;">
-        <div>
-            <img src="images/minion_alt.jpg"/>
-        </div>
+    <header>
         <div>
             <h1>FERB-LATIN TRANSLATER</h1>
         </div>
     </header>
-    <div class="flex-container-verticle">
-        <h3 style="margin-left:1rem;">Translate to Ferb Latin! 👇🏽</h3>
+    <div class="container" id="middle">
+        <h3>Translate to Ferb Latin! 👇🏽</h3>
         <textarea id="inputDiv">
         </textarea>
         <button id="click"> Translate </button>
         <textarea id="outputDiv">
         </textarea>
     </div>
-    <footer class="container" style="margin:0; position:absolute; bottom:0; left:0; right:0;">
-        <p>Here's an app to translate the gibberish minions speak to minion or banana cause we love minions. 
-           Have fun! Or as they would say <strong>kaylay agei</strong>! 
+    <footer>
+        <p> Here's a language that Phineas and Ferb created, Ferb Latin. To speak it you must take the first letter of every word, move it to the end, and then say '-erb'\; though two-letter words stay the same. Ferb Latin has non-verbal cues too, such as reaching for the sky to say "okay", cracking your knuckles to say that you're hungry, doing jazz hands when you smell something bad, twisting your toungue and teeth to say everything is ok, and blowing a raspberry to say goodbye.
         </p>
-        <p>Developed using VanillaJS , HTML and CSS by Akshita Saini &#x24B8;</p>
-
+        <p>Developed using <a src="https://funtranslations.com/" alt="Link for Fun Translations API">FunTranslations API </a> by Akshita Saini &#x24B8;</p>
     </footer>
-    <!-- Added at the bottom because the HTML file is compiled from top to bottom and we want our
-    scripts to be added at the end; there are other ways to do this; Reason why this makes sense is: 
-    HTML is the layout, and JS adds the funstioning without the layout there can be no functioning 
-    possibility of errors when the page is loaded, check! -->
     <script type="text/javascript" src="app.js" ></script>
 </body>
 </html>
